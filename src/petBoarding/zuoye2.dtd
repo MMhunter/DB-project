@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BankData[
+	<!ELEMENT BankData(Accounts,Customers)>
+	<!ELEMENT Accounts(Account*)>
+	<!ELEMENT Customers(Customer*)>
+	<!ELEMENT Account(Number,Type,Balance,Customer)>
+	<!ELEMENT Customer(Name,Address,Phone,SSN)>
+	<!ELEMENT Type (#PCDATA)>
+	<!ELEMENT Balance (#PCDATA)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Address (#PCDATA)>
+	<!ELEMENT Phone (#PCDATA)>
+	<!ELEMENT SSN (#PCDATA)>
+]>
